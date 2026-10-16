@@ -10,7 +10,7 @@ python test_hamming.py     # Task 1: exhaustive encoder/decoder check
 python simulate.py         # Tasks 2–3 + bonus: simulation and figure (~10 s)
 ```
 
-The figure is saved to `results/recovery_vs_p.png` and the raw numbers to `results/results.csv`.
+Running the simulation saves the figure to `results/recovery_vs_p.png` and the raw numbers to `results/results.csv`. A copy of my run is included in this repository: `recovery_vs_p.png` and `results.csv`.
 Use `python simulate.py --n 2000` for a quicker run, or `--seed` to change the random seed.
 
 ## Files
@@ -35,7 +35,7 @@ Use `python simulate.py --n 2000` for a quicker run, or `--seed` to change the r
 
 ## Results
 
-![Recovered packets vs p](results/recovery_vs_p.png)
+![Recovered packets vs p](recovery_vs_p.png)
 
 The simulated points (markers, N = 10,000 packets per point) lie on the theoretical curves (lines):
 
